@@ -1,6 +1,9 @@
+@import url('//fonts.cdnfonts.com/css/sherika');
+
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Sherika', sans-serif;
 }
 
 html{
@@ -112,7 +115,6 @@ section{
     line-height: 40px;
     width: 54%;
     color: gray;
-    font-family: 'Sherika', sans-serif;
     margin-top: 45px;
                                                 
 }
