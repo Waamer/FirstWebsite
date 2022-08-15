@@ -1,0 +1,198 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.HomeTip, .InfoTip, .FolderTip, .MailTip{
+    font-size: 15.5px;
+    font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(95,105,116);
+}
+
+.HomeTool .HomeTip {
+    visibility: hidden;
+    color: rgb(8,253,216);
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    top: 34%;
+    margin-left: 10px;
+}
+
+.InfoTool .InfoTip {
+    visibility: hidden;
+    color: rgb(8,253,216);
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    top: 44.1%;
+    margin-left: 10px;
+}
+
+.FolderTool .FolderTip {
+    visibility: hidden;
+    color: rgb(8,253,216);
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    top: 54.5%;
+    margin-left: 10px;
+}
+
+.MailTool .MailTip {
+    visibility: hidden;
+    color: rgb(8,253,216);
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    top: 64.8%;
+    margin-left: 10px;
+}
+
+.HomeTool:hover .HomeTip, .InfoTool:hover .InfoTip, .FolderTool:hover .FolderTip, .MailTool:hover .MailTip {
+    visibility: visible;
+}
+
+.ti-home-2:hover, .ti-info-circle:hover, .ti-folder:hover, .ti-mail:hover {
+    color:rgb(8,253,216);
+}
+
+.ti-home-2, .ti-info-circle, .ti-folder, .ti-mail {
+    display: block;
+    margin: 60px;
+}
+
+.IconBar{
+    width: 75px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    text-decoration: none;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec-1{
+    background-color: rgb(24,24,24);
+    position: relative;
+}
+
+#sec-2{
+    background-color: rgb(29,29,29);
+}
+
+.HomeTxt {
+    font-size: 250px;
+    line-height: 40px;
+    width: 54%;
+    color: gray;
+    font-family: 'Sherika', sans-serif;
+    margin-top: 45px;
+                                                
+}
+
+.ScrollButton{
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    border-radius: 50px;
+    cursor: pointer;
+}.ScrollButton::before,
+.ScrollButton::after{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid rgb(8,253,216);
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: ScrollDown 1s ease-in-out infinite
+}.ScrollButton::after{
+    top: 30%;
+    animation-delay: 0.3s;
+}@keyframes ScrollDown{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        top: 90%;
+    }
+}
+
+.ScrollButton2{
+    height: 50px;
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
+    border-radius: 50px;
+    cursor: pointer;
+}.ScrollButton2::before,
+.ScrollButton2::after{
+    content: '';
+    position: absolute;
+    bottom: 20%;
+    left: 12%;
+    border: 2px solid rgb(8,253,216);
+    height: 10px;
+    width: 10px;
+    transform: translate(50%, 100%) rotate(-135deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: ScrollDown2 1s ease-in-out infinite
+}.ScrollButton2::after{
+    bottom: 30%;
+    animation-delay: 0.3s;
+}@keyframes ScrollDown2{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        bottom: 90%;
+    }
+}

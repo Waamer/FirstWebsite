@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<hmtl>
+
+    <head>
+        <meta charset="utf-8">
+        <title>My Website</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="app.js"></script>
+        
+        <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+        <link href="http://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book" rel="stylesheet">
+
+        <link href="http://fonts.cdnfonts.com/css/sherika" rel="stylesheet">
+                
+
+    </head>
+    <body>
+
+        <section id="sec-1" onmouseover="chbg('rgb(8,253,216)')" onmouseout="chbg('rgb(95,105,116)')">
+
+            <div class="HomeTxt">Hello<span style="font-size: 80px;">, I'm <span style="color:rgb(8,253,216)";>Waleed Aamer</span>. I'm a <span style="color:blueviolet";>Western</span> CS Student.</span></div>
+
+            <a href="#sec-2">
+                <div class="ScrollButton"></div>
+            </a>
+
+        </section>
+
+        <section id="sec-2" onmouseover="chbg2('rgb(8,253,216)')" onmouseout="chbg2('rgb(95,105,116)')">
+                
+            <a href="#sec-1">
+                <div class="ScrollButton2"></div>
+            </a>
+
+        </section>
+
+        <div class="IconBar" style="font-size:30px">
+            <ul>
+                <div class="HomeTool"><a href="#sec-1"><i class="ti ti-home-2" onmouseover="chbg('rgb(8,253,216)')" onmouseout="chbg('rgb(95,105,116)')"><span class="HomeTip">Home</span></i></a></div>
+                <div class="InfoTool"><a href="#sec-2"><i class="ti ti-info-circle" onmouseover="chbg2('rgb(8,253,216)')" onmouseout="chbg2('rgb(95,105,116)')"><span class="InfoTip">About</span></i></a></div>
+                <div class="FolderTool"><a><i class="ti ti-folder"><span class="FolderTip">Projects</span></i></a></div>
+                <div class="MailTool"><a><i class="ti ti-mail"><span class="MailTip">Contact</span></i></a></div>
+            </ul>
+        </div>
+
+    </body>
+
+</hmtl>
