@@ -88,7 +88,7 @@ a {
 }
 
 .IconBar{
-    width: 75px;
+    width: 5%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -167,18 +167,17 @@ section{
 
 .Banner{
     top: 0%;
-    left: 2%;
+    left: 1.2%;
     position: fixed;
-    width: 6.8%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    width: 7%;
+    padding-top: 1.2%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .img1{
-    width: 85%;
+    width: 100%;
     height: auto;
 }
 
