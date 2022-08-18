@@ -167,10 +167,9 @@ section{
 
 .Banner{
     top: 0%;
-    left: 3%;
+    left: 2%;
     position: fixed;
     width: 6.8%;
-    background-color: black;
     padding-top: 1%;
     padding-bottom: 1%;
     display: flex;
@@ -181,4 +180,14 @@ section{
 .img1{
     width: 85%;
     height: auto;
+}
+
+.fa-github:hover, .fa-linkedin:hover{
+    color: rgb(8,253,216);
+}
+
+.Github, .Linkedin{
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
 }
