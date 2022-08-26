@@ -8,3 +8,4 @@ function chbg2(color) {
 
     Icon[0].style.color = color;
 } 
+
