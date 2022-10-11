@@ -139,7 +139,12 @@ section{
     background: rgb(255,184,140);
     background-size: 1000%;
     background-image: linear-gradient(95deg, #2b5876, #4e4376);
-    animation: bg-animation 8s infinite
+    animation: bg-animation 3s infinite
+}
+
+#sec-3{
+    position: relative;
+    background-color: grey;
 }
 
 @keyframes bg-animation{
